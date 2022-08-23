@@ -1,0 +1,52 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  
+}
+
+div {
+  /* display: inline-block; */
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #1E0606;
+  margin: 0;
+  padding: 0;
+}
+
+span {
+  margin: 0px;
+  padding: 0px;
+}
+
+button {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+h1,h2 {
+  margin: 0;
+  padding: 0;
+}

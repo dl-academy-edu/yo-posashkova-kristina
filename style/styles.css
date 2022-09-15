@@ -2,13 +2,13 @@
 
 .banner {
   justify-content: center;
-  position: relative;
   margin-top: 89px;
 }
 
 .banner__inner {
   display: flex;
   background: #eee4db;
+  position: relative;
 }
 
 .wrapper__item {
@@ -100,11 +100,11 @@ span {
 }
 
 .img__banner {
-  width: 636px;
-  height: 461px;
+  width: 635px;
+  height: 458px;
   position: absolute;
-  top: -92px;
-  left: 555px;
+  top: -89px;
+  left: 445px;
 }
 
 /* CATEGORY PRODUCTS */

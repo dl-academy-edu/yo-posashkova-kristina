@@ -1,6 +1,5 @@
 /* FILTER */
 .filter {
-    width: 1400px;
     background-color: rgba(125, 151, 218, 0.2);
 }
 
@@ -9,6 +8,8 @@
 }
 
 .filter__wrapper {
+    max-width: 1400px;
+    margin: auto;
     padding: 42px 195px 42px 110px;
 }
 

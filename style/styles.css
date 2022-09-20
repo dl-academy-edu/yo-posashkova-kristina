@@ -309,15 +309,23 @@ span {
 /* POPUP */
 
 .popup {
-  display: none;
+  display: none; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; 
+  z-index: 25;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup__overlay {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: 25;
-  align-items: center;
-  justify-content: center;
   background: rgba(125, 151, 218, 0.8);
 }
 

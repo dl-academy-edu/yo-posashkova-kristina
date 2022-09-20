@@ -23,8 +23,6 @@
   padding: 89px 0;
 }
 
-
-
 .wrapper__title p {
   margin: 20px 0px 20px 0px;
 }
@@ -55,23 +53,25 @@ span {
 }
 
 .btn__rectangle {
-  display: inline-block;
-  padding-left: 3px;
+  display: block;
   width: 31px;
+  margin-top: 10px;
+  margin-left: 3px;
 }
 
 .btn__rectangle_list {
-  margin-top: -5px;
+  margin: 0;
+  padding: 0;
+  height: 3px;
+  margin-bottom: 11px;
 }
 
-.btn__rectangle_item {
-  box-sizing: border-box;
+.btn__rectangle_item { 
+  display: block;
   width: 31px;
-  height: 3px;
-  width: 31px;
+  height: 3px; 
   background: #d6cac2;
-  border: none;
-  align-items: center;
+  margin-bottom: 11px;
 }
 
 .btn__active {
@@ -103,7 +103,7 @@ span {
   width: 635px;
   height: 458px;
   position: absolute;
-  top: -89px;
+  top: -86px;
   left: 445px;
 }
 
@@ -197,10 +197,14 @@ span {
   margin-left: 120px;
 }
 
+.delivery__wrapper .title__two {
+  margin-bottom: 6px;
+}
+
 .delivery .subtitle__two {
   width: 326px;
   height: 55px;
-  margin: 11px 0 11px -60px;
+  margin-left:-60px;
   padding-left: 60px;
   padding-top: 11px;
   cursor: pointer;
@@ -214,7 +218,8 @@ span {
 
 .subtitle__wrapper {
   width: 326px;
-  margin: 17px 0px;
+  margin: 0;
+  margin-bottom: 22px;
 }
 
 .delivery .button {
@@ -324,15 +329,18 @@ span {
   position: relative;
   width: 680px;
   background-color: #E5EAF8;
-  margin-top: 113px;
-  margin-left: 360px;
+  margin: 113px auto;
   padding: 42px 40px;
   font-family: "Roboto", sans-serif;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
   line-height: 16px;
 }
 
 .form__popup input {
-  margin-top: 3px;
+  margin-top: 6px;
 }
 
 .popup h2 {
@@ -341,6 +349,18 @@ span {
 
 .popup input:hover {
 border: #c29974 solid 1px;
+}
+
+.form__name,
+.wrapp,
+.form__message,
+.form__checkbox {
+  margin-bottom: 20px;
+}
+
+.label__checkbox {
+  font-size: 14px;
+  line-height: 16px;
 }
 
 .popup__btn:disabled {
@@ -355,9 +375,10 @@ border: #c29974 solid 1px;
 }
 
 .close__btn {
-  position: fixed;
-  top: 113px;
-  left: 1050px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  margin-right: -35px;
   background: none;
   cursor: pointer;
 }

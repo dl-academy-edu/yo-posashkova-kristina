@@ -6,7 +6,6 @@
 
 .products h2 {
   display: none;
-
 }
 
 .category__wrapper {
@@ -41,6 +40,11 @@
   margin-right: 20px;
 }
 
+.category__list_item_two {
+  margin-right: 0;
+  margin-left: 20px;
+}
+
 .category__list_link {
   position: absolute;
   color: #ffffff;
@@ -61,7 +65,8 @@
 
 .product__description_wrapper {
   width: 680px;
-  margin: 55px 410px 55px 310px;
+  margin-left: 200px;
+  margin-bottom: 55px;
 }
 
 .product__description_wrapper h2 {
